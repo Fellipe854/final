@@ -1,0 +1,128 @@
+ .banner {
+      background: url('img/banner-carros.jpg') center/cover no-repeat;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 1px 1px 5px black;
+    }
+    .categoria-card:hover {
+      transform: scale(1.03);
+      transition: 0.3s;
+    }
+        body {
+      font-family: Arial, sans-serif;
+    }
+    .banner {
+      background: url('https://via.placeholder.com/1200x400/1e3d59/ffffff?text=AutoPrime+Veiculos') center/cover no-repeat;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 1px 1px 5px black;
+    }
+    .categoria-card:hover {
+      transform: scale(1.03);
+      transition: 0.3s;
+    }
+    .navbar, footer {
+      background-color: #1e3d59;
+    }
+    .navbar a, footer p {
+      color: white !important;
+    }
+    header#top-header {
+      background-color: #1e3d59;
+      padding: 10px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    header#top-header img.logo {
+      height: 60px;
+      margin-left: 20px;
+    }
+    header#top-header h1 {
+      color: white;
+      margin: 0 20px;
+    }
+    nav.top-nav {
+      margin-right: 20px;
+    }
+    nav.top-nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    nav.top-nav a:hover {
+      text-decoration: underline;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    form {
+      max-width: 700px;
+      margin-bottom: 40px;
+    }
+
+    .form-group {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 15px;
+    }
+
+    .form-group label {
+      width: 150px;
+      margin-right: 10px;
+      font-weight: bold;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      flex: 1;
+      padding: 5px;
+      font-size: 14px;
+    }
+
+    .inline-group {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+
+    textarea {
+      width: 100%;
+      height: 100px;
+    }
+
+    button {
+      padding: 10px 20px;
+      margin-right: 10px;
+    }
+
+    h2 {
+      margin-top: 40px;
+    }
+
+    .contact-form {
+      max-width: 700px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 8px;
+    }
+
+    .contact-form button {
+      float: right;
+    }
